@@ -1,0 +1,33 @@
+body {
+    background-color: #FFEDE6;
+    
+   
+}
+
+.hero-img {
+    margin-top: 100px;
+
+}
+.service-card{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.hero-text {
+    margin-top: 180px;
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+    .hero-img {
+        margin-top: 190px;
+
+    }
+}
+@media (min-width: 1400px) {
+    .hero-img {
+        margin-top: 150px;
+    }
+}
